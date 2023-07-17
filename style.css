@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+header {
+  min-height: 83px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.container-one,
+.container-two {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #0e0e0e;
+}
+.container-one > img {
+  width: 2.1rem;
+  height: 2.1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.container-two {
+  gap: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Section one */
+.section-one {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  gap: 1rem;
+  line-height: 1.5;
+}
+.profilePic {
+  width: 11.2rem;
+  height: 11.2rem;
+  border-radius: 50%;
+}
+.intro-container {
+  color: #151515;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.intro-container > h3 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.intro-container > p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.section-two {
+  max-width: 844px;
+  margin-left: 6rem;
+  line-height: 1.5;
+}
+
+/* Section-Three */
+
+/* .section-three,
+.grid-container {
+  background-color: pink;
+} */
+
+/* .post-container {
+  width: 309px;
+  height: 232px;
+  border: 2px solid red;
+  display: flex;
+}
+
+.
+} */
+
+.section-three {
+  min-height: 500px;
+
+  padding-bottom: 1rem;
+}
+
+.section-three > h2 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.child-one {
+  width: 309px;
+  height: 393px;
+}
+
+.child-one > img {
+  width: 100%;
+  min-height: 232px;
+}
+
+.date {
+  font-size: 0.875rem;
+}
+
+.child-one > h4 {
+  font-size: 1.5rem;
+}
+
+.para {
+  color: #505050;
+  line-height: 1.2;
+}
+
+/* Footer */
+
+footer {
+  min-height: 105px;
+  background-color: #202020;
+  color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.2rem;
+}
